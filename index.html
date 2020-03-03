@@ -1,30 +1,26 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <!-- META TAG -->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
 
-        <!-- Import CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<title> HTML5 page </title>
 
-        <!-- Import Font -->
-        <link href="https://fonts.googleapis.com/css?family=Chewy&display=swap" rel="stylesheet">
+</head>
+<body>
 
-        <!-- Import from fontawesome.com -->
-        <script src="https://kit.fontawesome.com/26197ec3bf.js"></script>
+<form>
+<textarea id="words" rows="10" cols="20">Enter comment</textarea>
+<input type="button" onclick="getwords()" value="Enter" /> <br>
+<p id="para"></p>
+</form>
 
-        <!-- Title -->
-        <title>Burhunter</title>
-    </head>
-    
-    <body>
-        <button class='hard' onclick()>Hard</button>
-    </body>
-    
-    <script>
-        $('.hard').click(function() {
-            self.location = "baguspribadi99.github.io/difficulty/hard.html";
-        });
-    </script>
+<script type="text/javascript">
+function getwords() {
+  text = words.value;
+  document.getElementById("para").innerHTML += '<p>'+text
+  document.getElementById("words").value = "enter"
+}
+</script>
+
+</body>
 </html>
