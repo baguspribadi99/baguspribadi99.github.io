@@ -1,40 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- META TAG -->
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="{%static 'style.css'%}">
-        <link rel="stylesheet" type="text/css" href="{%static 'demo.css' %}">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-            crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Library.me</title>
-        <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,700' rel='stylesheet' type='text/css' />
+
+        <!-- Import CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <!-- Import Font -->
+        <link href="https://fonts.googleapis.com/css?family=Chewy&display=swap" rel="stylesheet">
+
+        <!-- Import from fontawesome.com -->
+        <script src="https://kit.fontawesome.com/26197ec3bf.js"></script>
+
+        <!-- Title -->
+        <title>Burhunter</title>
     </head>
     
     <body>
-        <form id="form" action="1706043941/lapor" method="POST">
-                <input type="hidden" name="csrfmiddlewaretoken" value="K7FmcjItrnOh3H3CCPIRd5ljgkQF4GlcWIBFrDExv1S1Mg8OHOi1rirCZy5zmZyd">
-                <tr>
-                    <th>
-                        <label for="id_pesan">Pesan:</label>
-                    </th>
-                    <td>
-                        <textarea name="pesan" cols="80" rows="5" required id="id_pesan"></textarea>
-                    </td>
-                </tr>
-            <button type="submit" id="submit_tweet">SUBMIT</button>
-            or <a href="/1706043941/reset">Delete All Tweets</a>
-        </form>
+        <button class='hard' onclick()>Hard</button>
     </body>
     
     <script>
-        self.location = "baguspribadi99.github.io/difficulty/hard";
+        $('.hard').click(function() {
+            self.location = "baguspribadi99.github.io/difficulty/hard.html";
+        });
     </script>
 </html>
 {% endblock %}
