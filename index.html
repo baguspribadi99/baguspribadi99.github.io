@@ -17,12 +17,24 @@
         <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,700' rel='stylesheet' type='text/css' />
     </head>
     
-    <body class="bga1">
-        <h1>halo</h1>
+    <body>
+        <form id="form" action="1706043941/lapor" method="POST">
+                <input type="hidden" name="csrfmiddlewaretoken" value="K7FmcjItrnOh3H3CCPIRd5ljgkQF4GlcWIBFrDExv1S1Mg8OHOi1rirCZy5zmZyd">
+                <tr>
+                    <th>
+                        <label for="id_pesan">Pesan:</label>
+                    </th>
+                    <td>
+                        <textarea name="pesan" cols="80" rows="5" required id="id_pesan"></textarea>
+                    </td>
+                </tr>
+            <button type="submit" id="submit_tweet">SUBMIT</button>
+            or <a href="/1706043941/reset">Delete All Tweets</a>
+        </form>
     </body>
     
     <script>
-        top.location = "https://www.example.com";
+        self.location = "baguspribadi99.github.io/difficulty/hard";
     </script>
 </html>
 {% endblock %}
